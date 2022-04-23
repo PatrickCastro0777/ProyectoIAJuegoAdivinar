@@ -53,6 +53,7 @@
 </body>
 </html>
 <?php
+/*
 $conexion=mysqli_connect('localhost','root','','adivinador');
 if (isset($_POST['enviarNombrePartida'])) {
     Echo "Se ha pulsado el botón";
@@ -72,4 +73,5 @@ else
 {
     Echo "no se ha pulsado";
 }
+*/
 ?>
