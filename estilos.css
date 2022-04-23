@@ -1,0 +1,111 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(11, 7, 30);
+}
+#contenedor
+{
+width: 400px;  
+margin: 0px auto;
+margin-top: 150px;
+text-align: center;
+}
+
+header
+{
+text-align: center;
+color: white;
+}
+
+#Crear
+{
+    font-size: medium;
+    color: white;
+    background-color: rgb(155, 13, 13);
+    padding-right: 5px;
+}
+
+#Cargar
+{
+    font-size: medium;
+    color: white;
+    background-color: rgb(2, 2, 109);
+    padding-right: 5px;
+}
+
+.modal_contenedor
+{
+display: flex;
+background-color: rgb(0, 0, 0, 0.3);
+align-items: center;
+justify-content: center;
+position: fixed;
+pointer-events: none;
+top: 0;
+left: 0;
+height: 100vh;
+width: 230vh;
+opacity: 0;
+}
+
+.show
+{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal
+{
+background-color: #fff;
+width: 200px;
+max-width: 100%;
+padding: 30px 30px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+text-align: center;
+
+}
+
+
+#CrearPartida
+{
+    font-size: medium;
+    color: white;
+    background-color: rgb(155, 13, 13);
+    padding-left: 5px;
+}
+
+
+.ok
+{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: blue;
+}
+
+.ups
+{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: blue;
+}
+
+.falta
+{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: blue;
+}
+
+
+
+
+
+
+
