@@ -11,22 +11,18 @@
 <body>
     <div id="contenedor">
         <header>
-            <h1>Adivino el jugador que estas pensando</h1>
+            <h1>Adivino el jugador X que estas pensando</h1>
         </header>
-        <button id="Crear">Crear nueva partida</button>
+        <form action ="paginaGuardarPartidas.php"> 
+            <button id="Crear">Crear nueva partida</button>
+        </form>
         <p></p>
         <form action="mostrarPartidas.php">
-            <button id="Cargar" onclick="hizoClick()">Cargar partida</button>
-            <script>
-                    function hizoClick() 
-                    {
-                    alert("Enviado");
-                    }
-            </script>
+            <button id="Cargar">Cargar partida</button>
         </form>
         <p></p>
     </div> 
-
+<!--
     <div class="modal_contenedor" id="modal_contenedor">
         <div class="modal" id="modal">
             <h3> Nueva partida </h3>
@@ -38,5 +34,6 @@
         </div>
     </div>     
 <script src="mostrarModal.js"></script>
+                -->
 </body>
 </html>

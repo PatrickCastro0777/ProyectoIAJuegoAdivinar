@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Logre adivinarlo</h1>
-    <form action="paginaAnio.php">
+    <form action="pagina.php">
             <button id="Seguir" >Seguir Jugando</button>
     </form>
     <p></p>

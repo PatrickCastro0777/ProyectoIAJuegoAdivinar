@@ -52,26 +52,3 @@
    </form>
 </body>
 </html>
-<?php
-/*
-$conexion=mysqli_connect('localhost','root','','adivinador');
-if (isset($_POST['enviarNombrePartida'])) {
-    Echo "Se ha pulsado el botón";
-    $nombrePartida = $_POST['nombrePartida'];
-    $insertar = "INSERT INTO guardarpartida(NombrePartida) VALUES ('$nombrePartida');";
-    $query = mysqli_query($conexion, $insertar);
-    if($query)
-    {
-        echo "<script> alert('Enviado');</script>";
-    }
-    else
-    {
-        echo "<script> alert('Fallo');</script>";
-    }
-} 
-else 
-{
-    Echo "no se ha pulsado";
-}
-*/
-?>
