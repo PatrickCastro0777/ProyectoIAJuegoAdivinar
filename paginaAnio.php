@@ -52,7 +52,6 @@
    </form>
 </body>
 </html>
-
 <?php
 $conexion=mysqli_connect('localhost','root','','adivinador');
 if (isset($_POST['enviarNombrePartida'])) {
